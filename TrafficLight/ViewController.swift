@@ -13,7 +13,9 @@ final class ViewController: UIViewController {
     @IBOutlet var redView: UIView!
     @IBOutlet var yellowView: UIView!
     @IBOutlet var greenView: UIView!
+    
     @IBOutlet var trafficButton: UIButton!
+    
     private var count = 0
     
     override func viewDidLoad() {
